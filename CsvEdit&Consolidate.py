@@ -1,11 +1,11 @@
 #!/usr/bin/python
 #/*************************************************************************************
-#                PURPOSE:  Script to:
-#														1) Count rows in csvs and output to csv (filepath + filename in column 1, rows in that file in column 2, total rowcount)
-#														2) Overwrite (certain) Column names values
-#														3) Drop Column by column name
-#														4) Populate PreProcessed files into separate folder
-#														5) Consolidate all pre processed CSVs into one CSV
+#            PURPOSE:  Script to:
+#		1) Count rows in csvs and output to csv (filepath + filename in column 1, rows in that file in column 2, total rowcount)
+#		2) Overwrite (certain) Column names values
+#		3) Drop Column by column name
+#		4) Populate PreProcessed files into separate folder
+#		5) Consolidate all pre processed CSVs into one CSV
 #														
 #               DATABASE:  File System (S:)
 #                 AUTHOR:  Simeon Meerson
