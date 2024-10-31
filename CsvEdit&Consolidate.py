@@ -110,7 +110,6 @@ dfs = [df for df in dfs]
 df = pd.concat(dfs, sort=False)
 
 # Write Concactenated Data Frame to CSV
-#df.to_csv(time.strftime("AprilClubRegistrations") + '.csv')
 df.to_csv(os.path.join(finaldestination, filedate + "_CSV_Consolidations.csv"), index=False)
 
 # console output 
