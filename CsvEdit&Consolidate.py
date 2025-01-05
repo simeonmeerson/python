@@ -103,7 +103,7 @@ for f in files:
 # Data Frame to Read CSV files in path directory location
 dfs = [pd.read_csv(os.path.join(preprocessedpath, f), low_memory=False, encoding='latin-1') for f in files]
 
-# Club Files are Data Frames for Data Frame
+# Files are Data Frames for Data Frame
 dfs = [df for df in dfs]
 
 # Concactenate Data Frames into one Data Frame
