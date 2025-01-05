@@ -39,7 +39,7 @@ files.sort()
 
 
 #######################################
-#		Consolidate csv files     				#
+#		Consolidate csv files     	#
 #######################################
 
 # Get date of files being processed
